@@ -1,0 +1,79 @@
+:root{
+    /* variables generales*/
+    --white: #FFFFFF;
+    --black: #000000;
+    --dark: #232830;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --sm: 14px;
+    --md: 24px;
+    --lg: 32px;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: var(--dark)!important;
+}
+
+.navbar-brand {
+    color: var(--very-light-pink)!important;
+   
+}
+
+.container-fluid a {
+    color: var(--very-light-pink)!important;
+    
+}
+
+.nav-item a:hover {
+    color: #d39d15!important;
+    
+}
+
+.dropdown-menu{
+    background-color: var(--dark);
+    --bs-dropdown-link-hover-bg: #454545;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+}
+
+.cards-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns:repeat(auto-fill, 340px);
+    /*espacios entre cards*/
+    gap: 120px;
+    place-content: center;
+}
+
+.title{
+    padding-top: 45px;
+    font-size: var(--lg);
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.subtitle{
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.card-title{
+
+    font-weight: bold;
+}
+
